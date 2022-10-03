@@ -1,8 +1,8 @@
-def suma(lista):
-    zmienna= 0
-    for i in lista:
-        zmienna += i
-    return zmienna # return sum(i for i in lista)
+def sum(list):
+    variable= 0
+    for i in list:
+        variable += i
+    return variable # return sum(i for i in lista)
     
     
-print(suma([1, 4, 6]))
+print(sum([1, 4, 6]))
