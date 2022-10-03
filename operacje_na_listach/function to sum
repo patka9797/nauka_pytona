@@ -1,6 +1,8 @@
 def suma(lista):
-    zmienna=0
+    zmienna= 0
     for i in lista:
-        zmienna=zmienna+i
-    return zmienna
-print(suma([1,4,6]))
+        zmienna += i
+    return zmienna # return sum(i for i in lista)
+    
+    
+print(suma([1, 4, 6]))
