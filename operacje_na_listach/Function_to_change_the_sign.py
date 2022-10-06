@@ -4,6 +4,6 @@ def change(string, b, c):#zamienia pierwszy znam b na drugi znak c
         if i== b:
             new += c
         else:
-            new= new + i#dodajemy do nowego po prostu i
+            new += i #dodajemy do nowego po prostu i
     return new
 print(change('+pasztet', '+', '-'))
