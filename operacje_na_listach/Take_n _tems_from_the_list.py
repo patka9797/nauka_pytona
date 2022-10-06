@@ -1,7 +1,7 @@
-def take(list, items):
+def take(list_, number_of_items):
     empty=[]
-    for i in list:
-        if len(empty)== items:
+    for i in list_:
+        if len(empty)== number_of_items:
             return emppty
         else:
             empty.append(i)
