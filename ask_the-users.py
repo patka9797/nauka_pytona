@@ -1,11 +1,7 @@
-import string
 
+def ask_users(str1):
+    str1=input('Podaj stringa')
+    for i in str1 :
 
-def ask_users():
-    string_=[]
-    
-    print(str1=-input('Podaj stringa'))
-    string_.append(str1)
-    
-    return string_
-
+        return str1.upper() + str1.lower()
+print(ask_users(''))
